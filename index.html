@@ -1,0 +1,104 @@
+
+    <!-- <a>Hey this is Shravni,, This is my first website</a>
+    <a href ="https://www.amazon.com/">     Google</a>
+
+    <script src="script.js"></script> -->
+    <!--  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shravni's Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- ✅ Add fade-in and scroll CSS here -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Shravni</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <h1>Hey, I'm <span>Shravni</span> 👋</h1>
+    <p>Aspiring Web Developer | Tech Enthusiast | Sports Lover</p>
+    <div class="btns">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn outline">Let's Connect</a>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+   <section id="about" class="about fade-in">
+    <h2>About Me</h2>
+    
+  <div class="about-container">
+    <img src="img1.jpg" alt="Shravni" class="about-img"/>
+    <p>I’m currently a 3rd semester B.Tech student, learning Web Development during my vacations. I love coding, aviation, and sports — and I'm building cool projects to grow as a developer. This portfolio is one of them ✨</p>
+  </div>
+</section>
+
+   
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects fade-in" style="animation-delay: 0.3s;">
+    <h2>My Projects</h2>
+    <div class="project-card">
+      <h3>Amazon Clone</h3>
+      <p>Built a basic Amazon UI using HTML & CSS. Practiced layout, responsiveness, and design skills.</p>
+      <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>A mini JavaScript app to show weather of any city using API. Fun + useful!</p>
+      <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact fade-in" style="animation-delay: 0.6s;">
+    <h2>Contact Me</h2>
+    <p>Let's collaborate, chat, or vibe on ideas!</p>
+    <p>Email: <a href="mailto:shravni@example.com">shravni2006@gmail.com</a></p>
+    <p>Instagram: <a href="#">@shravyavyx_1202</a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Shravni | All rights reserved</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+</body>
+</html>
