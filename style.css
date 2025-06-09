@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #f9f9f9;
+  background: #ffdcdc;
   color: #333;
 }
 
@@ -40,7 +40,7 @@ nav {
 .hero {
   text-align: center;
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #c2e9fb, #81a4fd);
+  background: linear-gradient(135deg, #e9a5f1, #fed2e2);
   color: #fff;
 }
 
@@ -49,7 +49,7 @@ nav {
 }
 
 .hero span {
-  color: #ffe69a;
+  color: #8f87f1;
 }
 
 .hero p {
